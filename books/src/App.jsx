@@ -126,11 +126,11 @@ function LoginPage({ setRoleChange }) {
             <h5 className="card-header">Login</h5>
             <div className="card-body">
               <div className="mb-3">
-                <label className="form-label">name</label>
+                <label className="form-label">Name</label>
                 <input type="text" className="form-control" value={user} onChange={e => setUser(e.target.value)} />
               </div>
               <div className="mb-3">
-                <label className="form-label">password</label>
+                <label className="form-label">Password</label>
                 <input type="password" className="form-control" value={pass} onChange={e => setPass(e.target.value)} />
               </div>
               <button onClick={doLogin} type="button" className="btn btn-outline-success">Login</button>

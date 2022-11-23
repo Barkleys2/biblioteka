@@ -63,7 +63,7 @@ function Line({ books }) {
                 </ul>
 
                 <div className="mb-3">
-                    <label className="form-label">Add Cats</label>
+                    <label className="form-label">Add Comment</label>
                     <textarea className="form-control" value={post} onChange={e => setPost(e.target.value)}></textarea>
                 </div>
                 <button onClick={add} type="button" className="btn btn-outline-success">Add</button>
